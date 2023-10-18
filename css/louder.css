@@ -1,0 +1,22 @@
+.loader{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px dotted #1c0d32;
+    margin: 30px auto;
+    border-left-color: #ffffff;
+    animation-name: louder;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    box-shadow: 0 0 5px #868484;
+    
+}
+
+@keyframes louder{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

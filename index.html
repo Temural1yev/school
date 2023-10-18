@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Home page</title>
+</head>
+
+<body>
+
+
+    <div class="wrapper">
+        <div class="sidebar ">
+            <div class="sidebar-header">
+                Группа №ITC011-46
+            </div>
+            <div class="sidebar-avatar">
+                <img src="./img/avatar.webp" alt="">
+                <div>
+                    <h1 class="sidebar-avatar-name">Temuraliyev Zafar</h1>
+                    <p>Frontend mentor</p>
+                </div>
+            </div>
+            <div class="sidebar-menu">
+                <a class="active" href="index.html">Home</a>
+                <a href="teachers.html">Teachers</a>
+                <a href="students.html">Students</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-navbar">
+                <div class="toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="main-navbar-user">
+                    <span class="date">24.08.2023 18:00</span>
+                    <img src="./img/user2.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="main-heade">
+                <div class="main-head-category">
+                    <div class="main-head-title">
+                       Home
+                    </div>
+                    <!-- <p>Lorem, ipsum dolor.</p> -->
+                </div>
+                <div class="main-head-category">
+                    
+                    <img src="./img/home2.jfif" alt="">
+                </div>
+            </div>
+
+
+            <div class="main-content">
+                <div class="main-content-row">
+                    <a href="/index.html" class="card">
+                        <h1 class="card-title">Home</h1>
+                        <img src="./img/home.png" alt="">
+                    </a>
+                    <a href="students.html" class="card">
+                        <h1 class="card-title">Students</h1>
+                        <img src="./img/students-removebg-preview.png" alt="">
+                    </a>
+                    <a href="teachers.html" class="card">
+                        <h1 class="card-title">Teachers</h1>
+                        <img src="./img/teacher.jpg" alt="">
+                    </a>
+
+                    <a href="about.html" class="card">
+                        <h1 class="card-title">About us</h1>
+                        <img src="./img/about.png" alt="">
+                    </a>
+                    <a href="contact.html" class="card">
+                        <h1 class="card-title">Contact</h1>
+                        <img src="./img/contact2-removebg-preview.png" alt="">
+                    </a>
+                    <a href="#" class="card">
+                        <h1 class="card-title">My Profiel</h1>
+                        <img src="./img/avatar.webp" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const toggle = document.querySelector(".toggle")
+        const nav = document.querySelector(".sidebar")
+
+        toggle.addEventListener("click", function () {
+            nav.classList.toggle("sidebar-active")
+        })
+    </script>
+
+    <!-- <script src="./js/date.js"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+.add-student{
+    padding: 10px 35px;
+    border-radius: 20px;
+    border: 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    background: linear-gradient(90deg, #1c0d32 0%, #00d4ff 100%);
+}
+ 
+table{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px#ccc;
+    padding: 20px;
+}
+table thead th{
+    font-size: 18px;
+    font-weight: 700;
+    color: #1c0d32;
+    padding: 20px;
+}
+
+table tbody tr td{
+    padding: 10px;
+    text-align: center;
+}
+table thead tr{
+
+}
+table tbody tr{
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+    margin-top: 5px !important;
+}
+table tbody tr:hover{
+    box-shadow: 0 0 6px #ccc;  
+}
+
+.remove-student{
+    color: red;
+    width: 30px;
+    height: 30px;
+    background-color: #aaacad;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.edit-student{
+    color: #fff;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #aaacad;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.student-event{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table tbody tr td img{
+    border-radius: 50%;
+}
